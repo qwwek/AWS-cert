@@ -1,0 +1,20 @@
+# Ignore AWS CLI credentials and config files
+.aws/credentials
+.aws/config
+/aws/
+awscliv2.zip
+
+# Ignore environment variable files (if you use them)
+.env
+.env.* 
+
+# Node.js / Python / common project ignores (optional)
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Git ignore OS files
+

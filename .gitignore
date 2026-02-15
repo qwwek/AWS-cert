@@ -16,5 +16,18 @@ __pycache__/
 *.pyd
 *.log
 
-# Git ignore OS files
+# Local .terraform directories
+**/.terraform*
 
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Local tfvars terraform.tfvars
+**/*.tfvars
+
+# tf lock file
+**/.terraform.lock.hcl
+
+# Crash log files
+crash.log

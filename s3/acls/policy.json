@@ -1,0 +1,16 @@
+{
+  "Grants": [
+    {
+      "Grantee": {
+        "DisplayName": "qwekk2",
+        "ID": "fb33c55b805cb21bb392ae03b252394dfb94a68e21bce5d5cf51112d0df77987",
+        "Type": "CanonicalUser"
+      },
+      "Permission": "FULL_CONTROL"
+    }
+  ],
+  "Owner": {
+    "DisplayName": "qwek",
+    "ID": "99449e77b4f61cd6e4d49f2c49aa94925b7ebf9bd0c054562298b22494904c50"
+  }
+}

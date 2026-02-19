@@ -1,0 +1,19 @@
+{
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+               "AWS": "arn:aws:account::144866669447:account"
+            },
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bucket-policy-example-tc11",
+                "arn:aws:s3:::bucket-policy-example-tc11/*"
+            ]
+       }
+    ]
+ }
